@@ -6,12 +6,15 @@ function Header() {
     const handleToggle = () => {
         setToggleMenu(!toggleMenu);
     };
+    const handleClose = () => {
+        setToggleMenu(false);
+    };
     return (
         <HeaderSection>
             <HeaderSectionContainer>
                 <h2>BF</h2>
                 <nav className={toggleMenu ? "nav_menu--active" : "nav_menu"}>
-                    <ul onClick={handleToggle}>
+                    <ul onClick={handleClose}>
                         <li>
                             <a href="#AboutMe">Sobre Mí</a>
                         </li>
