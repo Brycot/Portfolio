@@ -13,7 +13,7 @@ function Header() {
                 <nav className={toggleMenu ? "nav_menu--active" : "nav_menu"}>
                     <ul>
                         <li>
-                            <a href="">Sobre Mí</a>
+                            <a href="#AboutMe">Sobre Mí</a>
                         </li>
                         <li>
                             <a href="">Habilidades</a>

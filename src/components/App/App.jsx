@@ -1,3 +1,4 @@
+import AboutMe from "../AboutMe/AboutMe";
 import Header from "../Header/Header";
 import Title from "../Title/Title";
 import "./App.css";
@@ -8,6 +9,7 @@ function App() {
             <Header />
             <main className="App">
                 <Title />
+                <AboutMe />
             </main>
         </>
     );
