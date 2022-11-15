@@ -26,3 +26,11 @@ body {
     min-width: 320px;
     min-height: 100vh;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-top: 1px solid #ffffff15;
+}

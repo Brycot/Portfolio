@@ -105,7 +105,7 @@ export const Button = styled.a`
     cursor: pointer;
     &:hover {
         transform: scale(1.1);
-        background: transparent;
+        box-shadow: 0px 0px 9px 1px #0059ffde;
     }
 `;
 export const BlobOne = styled.img`
