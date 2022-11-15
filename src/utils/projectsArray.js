@@ -1,7 +1,7 @@
 const projectsArray = [];
 projectsArray.push({
-    name: "TifySpo (En Construcción)",
-    demo: "",
+    name: "TifySpo",
+    demo: "tifyspo-brycot.vercel.app",
     git: "https://github.com/Brycot/tifyspo",
     img: "http://www.audiocarla46.com/media/about/2.jpg",
     description:
@@ -88,5 +88,4 @@ projectsArray.push({
     description: "Maqueta del formulario de inicio de sesión de netflix.",
     stack: ["HTML5", "CSS3"],
 });
-
 export default projectsArray;

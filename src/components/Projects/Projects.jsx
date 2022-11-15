@@ -1,21 +1,30 @@
 import React from "react";
-import projectsArray from "../../utils/projectsArray"
-
+import projectsArray from "../../utils/projectsArray";
+import { Section, Title, ProjectContainer, Button } from "./Proyects.styled";
 function Projects() {
     return (
-        <section>
-            <h2>Proyectos</h2>
-            <div>
+        <Section id="Projects">
+            <div className="Projects__Title">
+                <Title>Proyectos</Title>
+            </div>
+            <div className="Projects__Container">
                 {projectsArray.map((project) => (
-                    <div>
-                        <img src={project.img} alt="" />
+                    <ProjectContainer>
                         <p>{project.name}</p>
-                        <a href={project.demo}>Demo</a>
-                        <a href={project.git}>Codigo</a>
-                    </div>
+                        <div className="Project__Image">
+                            <div>
+                                <a href="">Ver Mas...</a>
+                            </div>
+                            <img src={project.img} alt="" />
+                        </div>
+                        <div className="Project__Links">
+                            <Button href={project.demo}>Demo</Button>
+                            <Button href={project.git}>Codigo</Button>
+                        </div>
+                    </ProjectContainer>
                 ))}
             </div>
-        </section>
+        </Section>
     );
 }
 
