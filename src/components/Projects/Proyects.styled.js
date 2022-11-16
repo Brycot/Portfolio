@@ -28,7 +28,20 @@ export const Section = styled.section`
         align-content: center;
         justify-items: center;
         align-items: center;
-        /* outline: 1px solid red; */
+    }
+    & .Projects__Container div:first-child .Project__Image::after {
+        width: 100%;
+        height: 100%;
+        content: "En desarrollo";
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.608);
+        backdrop-filter: blur(4px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
     }
 `;
 
@@ -39,7 +52,6 @@ export const Title = styled.h2`
 export const ProjectContainer = styled.div`
     width: 100%;
     height: 100%;
-    /* outline: 1px solid blue; */
     background-color: #0c0c0c;
     padding: 20px;
     border-radius: 16px;
@@ -84,7 +96,6 @@ export const ProjectContainer = styled.div`
         border-radius: 10px;
     }
     & .Project__Links {
-        /* outline: 1px solid blue; */
         margin-top: 10px;
         width: 100%;
         height: 50px;
@@ -93,7 +104,6 @@ export const ProjectContainer = styled.div`
         justify-content: space-between;
     }
 `;
-
 export const Button = styled.a`
     color: #dedede;
     text-decoration: none;

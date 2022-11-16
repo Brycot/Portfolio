@@ -20,7 +20,7 @@ import scroll from "../../assets/desplazarse-hacia-abajo.png";
 function Title() {
     return (
         <>
-            <Section className="TitleSection_Container">
+            <Section id="beginning" className="TitleSection_Container">
                 <figure className="profilePic">
                     <img src={profilePic} alt="" />
                 </figure>

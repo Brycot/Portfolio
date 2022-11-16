@@ -12,9 +12,9 @@ function Projects() {
                     <ProjectContainer>
                         <p>{project.name}</p>
                         <div className="Project__Image">
-                            <div>
+                            {/* <div>
                                 <a href="">Ver Mas...</a>
-                            </div>
+                            </div> */}
                             <img src={project.img} alt="" />
                         </div>
                         <div className="Project__Links">

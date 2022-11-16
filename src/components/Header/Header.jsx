@@ -16,6 +16,9 @@ function Header() {
                 <nav className={toggleMenu ? "nav_menu--active" : "nav_menu"}>
                     <ul onClick={handleClose}>
                         <li>
+                            <a href="#beginning">Inicio</a>
+                        </li>
+                        <li>
                             <a href="#AboutMe">Sobre Mí</a>
                         </li>
                         <li>
