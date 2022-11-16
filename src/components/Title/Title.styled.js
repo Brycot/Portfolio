@@ -103,6 +103,7 @@ export const Button = styled.a`
     letter-spacing: 1px;
     transition: all 0.25s;
     cursor: pointer;
+    color: #dedede;
     &:hover {
         transform: scale(1.1);
         box-shadow: 0px 0px 9px 1px #0059ffde;

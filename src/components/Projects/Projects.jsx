@@ -18,8 +18,12 @@ function Projects() {
                             <img src={project.img} alt="" />
                         </div>
                         <div className="Project__Links">
-                            <Button href={project.demo}>Demo</Button>
-                            <Button href={project.git}>Codigo</Button>
+                            <Button href={project.demo} target="_blank">
+                                Demo
+                            </Button>
+                            <Button href={project.git} target="_blank">
+                                Codigo
+                            </Button>
                         </div>
                     </ProjectContainer>
                 ))}

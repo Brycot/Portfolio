@@ -22,7 +22,7 @@ function Title() {
         <>
             <Section id="beginning" className="TitleSection_Container">
                 <figure className="profilePic">
-                    <img src={profilePic} alt="" />
+                    <img src="https://i.imgur.com/dy4MgVI.jpg" alt="" />
                 </figure>
                 <div>
                     <h1>Bryan Figueroa</h1>
@@ -30,24 +30,35 @@ function Title() {
                 </div>
 
                 <SocialLinkContainer>
-                    <a href="https://github.com/Brycot" className="socialLink">
+                    <a
+                        href="https://github.com/Brycot"
+                        target="_blank"
+                        className="socialLink"
+                    >
                         <img src={github} alt="" />
                     </a>
                     <a
                         href="https://www.linkedin.com/in/bryan-ismael-figueroa-quiroz-15701a228/"
+                        target="_blank"
                         className="socialLink"
                     >
                         <img src={linkedin} alt="" />
                     </a>
                     <a
                         href="https://twitter.com/braico_m"
+                        target="_blank"
                         className="socialLink"
                     >
                         <img src={twitter} alt="" />
                     </a>
                 </SocialLinkContainer>
 
-                <Button>DESCARGAR CV</Button>
+                <Button
+                    href="https://drive.google.com/file/d/1AY2JSSqxTh7xyFv_L-nZwRifjt3Mp-6u/view?usp=sharing"
+                    target="_blank"
+                >
+                    DESCARGAR CV
+                </Button>
                 <img className="scrollimg" src={scroll} alt="" />
             </Section>
             <BlobContainer>
