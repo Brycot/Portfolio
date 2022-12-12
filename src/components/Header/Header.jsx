@@ -10,13 +10,22 @@ function Header() {
         <HeaderSection>
             <HeaderSectionContainer>
                 <h2>BF</h2>
-                {/* <nav>
-                    <li>
-                        <ul>Sobre Mí</ul>
-                        <ul>Habilidades</ul>
-                        <ul>Proyectos</ul>
-                    </li>
-                </nav> */}
+                <nav className={toggleMenu ? "nav_menu--active" : "nav_menu"}>
+                    <ul>
+                        <li>
+                            <a href="">Sobre Mí</a>
+                        </li>
+                        <li>
+                            <a href="">Habilidades</a>
+                        </li>
+                        <li>
+                            <a href="">Proyectos</a>
+                        </li>
+                        <li>
+                            <a href="">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
                 <button
                     onClick={handleToggle}
                     className={

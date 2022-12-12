@@ -6,16 +6,16 @@ export const HeaderSection = styled.header`
     position: fixed;
     top: 0;
     z-index: 3;
-    background-color: transparent;
     display: flex;
     justify-content: center;
+    background-color: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(25px);
+    border-bottom: 1px solid #ffffff2b;
 `;
 export const HeaderSectionContainer = styled.div`
     width: 100%;
     height: 62px;
-    background-color: rgba(0, 0, 0, 0.35);
-    backdrop-filter: blur(25px);
-    border-bottom: 1px solid #ffffff2b;
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,5 +57,64 @@ export const HeaderSectionContainer = styled.div`
     }
     & .nav__hamburguer--active div:last-child {
         transform: rotate(-45deg);
+    }
+
+    & .nav_menu,
+    & .nav_menu--active {
+        position: fixed;
+        top: 62px;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 1);
+        transition: all 0.8s ease;
+    }
+    & .nav_menu {
+        clip-path: circle(0% at 100% 0%);
+    }
+    & .nav_menu--active {
+        clip-path: circle(150% at 100% 0%);
+    }
+    & nav ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+    & nav ul li {
+        margin: 30px 0;
+    }
+    & nav ul li a {
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 800;
+        color: #dedede;
+    }
+    @media (min-width: 980px) {
+        & .nav_menu {
+            clip-path: circle(150% at 100% 0%);
+            position: static;
+            width: 100%;
+            height: 60px;
+            background: transparent;
+        }
+        & nav ul {
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+        & nav ul li {
+            margin: 0 30px;
+        }
+        & nav ul li:hover a {
+            color: #0059ff;
+            transition: all 0.5s;
+        }
+        & nav ul li a {
+            font-size: 18px;
+            font-weight: 500;
+        }
     }
 `;
