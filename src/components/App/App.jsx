@@ -1,11 +1,15 @@
+import Header from "../Header/Header";
 import Title from "../Title/Title";
 import "./App.css";
 
 function App() {
     return (
-        <main className="App">
-            <Title />
-        </main>
+        <>
+            <Header />
+            <main className="App">
+                <Title />
+            </main>
+        </>
     );
 }
 
