@@ -68,6 +68,7 @@ export const HeaderSectionContainer = styled.div`
         height: calc(100vh - 62px);
         background-color: rgba(0, 0, 0, 1);
         transition: all 0.2s ease;
+        transform-origin: right;
     }
     & .nav_menu {
         transform: scaleX(0);
