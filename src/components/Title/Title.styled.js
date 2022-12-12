@@ -71,7 +71,13 @@ export const Section = styled.section`
     }
     & h3 {
         margin-top: 13px;
-        font-weight: 300;
+        font-weight: 400;
+        background: linear-gradient(135deg, #05e92c, #07fddb);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        /* background-image: linear-gradient(60deg, ); */
     }
     & .scrollimg {
         width: 54px;

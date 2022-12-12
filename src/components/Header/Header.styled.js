@@ -65,15 +65,15 @@ export const HeaderSectionContainer = styled.div`
         top: 62px;
         left: 0;
         width: 100vw;
-        height: 100vh;
+        height: calc(100vh - 62px);
         background-color: rgba(0, 0, 0, 1);
-        transition: all 0.8s ease;
+        transition: all 0.2s ease;
     }
     & .nav_menu {
-        clip-path: circle(0% at 100% 0%);
+        transform: scaleX(0);
     }
     & .nav_menu--active {
-        clip-path: circle(150% at 100% 0%);
+        transform: scaleX(1);
     }
     & nav ul {
         width: 100%;
@@ -95,7 +95,7 @@ export const HeaderSectionContainer = styled.div`
     }
     @media (min-width: 980px) {
         & .nav_menu {
-            clip-path: circle(150% at 100% 0%);
+            transform: scaleX(1);
             position: static;
             width: 100%;
             height: 60px;
