@@ -1,8 +1,8 @@
 const projectsArray = [];
 projectsArray.push({
     name: "TifySpo",
-    demo: "#Projects",
-    git: "#Projects",
+    demo: "",
+    git: "",
     img: "https://i.imgur.com/X4lCN2d.png",
     description:
         "Clon de Spotify que usa la API de spotify para hacer la autenticacioón y asi poder acceder a las playlist/albumes del usuario y reproducir musica",
@@ -53,15 +53,15 @@ projectsArray.push({
         "Aplicación de gestion academica inspirada en la pagina academica de la universidad distrital de Francisco Jose de Caldas, utilizando POO para la creación de estudiantes, asignaturas y docentes, asi como una autorización y autenticación basica.",
     stack: ["HTML5", "CSS3", "JavaScript"],
 });
-projectsArray.push({
-    name: "ToDo-Js-Vanilla",
-    demo: "https://brycot.github.io/toDo-Js-Vanilla/src/index.html",
-    git: "https://github.com/Brycot/toDo-Js-Vanilla",
-    img: "https://i.imgur.com/jc4pXlU.png",
-    description:
-        "Aplicación de Todos hecha con JavaScript Vanilla y manipulación del DOM.",
-    stack: ["HTML5", "CSS3", "JavaScript"],
-});
+// projectsArray.push({
+//     name: "ToDo-Js-Vanilla",
+//     demo: "https://brycot.github.io/toDo-Js-Vanilla/src/index.html",
+//     git: "https://github.com/Brycot/toDo-Js-Vanilla",
+//     img: "https://i.imgur.com/jc4pXlU.png",
+//     description:
+//         "Aplicación de Todos hecha con JavaScript Vanilla y manipulación del DOM.",
+//     stack: ["HTML5", "CSS3", "JavaScript"],
+// });
 projectsArray.push({
     name: "Mitio",
     demo: "https://brycot.github.io/Mition/",

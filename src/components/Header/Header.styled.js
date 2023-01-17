@@ -9,7 +9,7 @@ export const HeaderSection = styled.header`
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.35);
-    backdrop-filter: blur(25px);
+    backdrop-filter: blur(5px);
     border-bottom: 1px solid #ffffff2b;
 `;
 export const HeaderSectionContainer = styled.div`

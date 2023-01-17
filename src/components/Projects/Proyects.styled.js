@@ -29,6 +29,7 @@ export const Section = styled.section`
         justify-items: center;
         align-items: center;
     }
+    // Proyecto spotify
     & .Projects__Container div:first-child .Project__Image::after {
         width: 100%;
         height: 100%;
@@ -42,6 +43,12 @@ export const Section = styled.section`
         justify-content: center;
         align-items: center;
         font-size: 20px;
+    }
+    & .Projects__Container div:first-child .Project__Links a {
+        cursor: not-allowed;
+        background-color: #3c3c3c;
+        border-color: #3c3c3c;
+        pointer-events:none;
     }
 `;
 
