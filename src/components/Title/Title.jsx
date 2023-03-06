@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import {
     Section,
@@ -7,15 +7,15 @@ import {
     SocialLinkContainer,
     BlobOne,
     BlobTwo,
-} from "./Title.styled";
+} from './Title.styled';
 
-import blob from "../../assets/blobanimation.svg";
-import blobTwo from "../../assets/blobanimationtwo.svg";
-import github from "../../assets/github.svg";
-import linkedin from "../../assets/linkedin.svg";
-import twitter from "../../assets/twitter.svg";
-import profilePic from "../../assets/profilePic.webp";
-import scroll from "../../assets/desplazarse-hacia-abajo.png";
+import blob from '../../assets/blobanimation.svg';
+import blobTwo from '../../assets/blobanimationtwo.svg';
+import github from '../../assets/github.svg';
+import linkedin from '../../assets/linkedin.svg';
+import twitter from '../../assets/twitter.svg';
+import profilePic from '../../assets/profilePic.webp';
+import scroll from '../../assets/desplazarse-hacia-abajo.png';
 
 function Title() {
     return (
@@ -26,7 +26,7 @@ function Title() {
                 </figure>
                 <div>
                     <h1>Bryan Figueroa</h1>
-                    <h3>Desarrollador Web</h3>
+                    <h3>Desarrollador Full-Stack</h3>
                 </div>
 
                 <SocialLinkContainer>

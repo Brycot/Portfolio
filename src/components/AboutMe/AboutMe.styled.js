@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Section = styled.section`
     width: 100%;
@@ -39,6 +39,7 @@ export const Section = styled.section`
     }
     & div:nth-child(2) .AboutMe__paragraph_Container {
         width: 100%;
+        gap: 0px;
         @media (min-width: 600px) {
             width: 70%;
         }

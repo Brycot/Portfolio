@@ -1,5 +1,5 @@
-import React from "react";
-import { Section, Title, Text } from "./AboutMe.styled";
+import React from 'react';
+import { Section, Title, Text } from './AboutMe.styled';
 
 function AboutMe() {
     return (
@@ -15,20 +15,24 @@ function AboutMe() {
                 />
                 <div className="AboutMe__paragraph_Container">
                     <Text>
-                        Desarrollador Web enfocado en el frontend, me encanta
-                        realizar proyectos que me lleven a ser un mejor
-                        programador.
+                        Soy un individuo muy motivado y comprometido. Me
+                        esfuerzo por superar continuamente mis límites para
+                        alcanzar resultados sobresalientes en todo lo que hago.
                     </Text>
                     <Text>
-                        Apasionado completamente por la programación, explorando
-                        cada día aprender más, siempre dispuesto a adentrarme en
-                        la solución de problemas que se me presenten en el día a
-                        día, buscando oportunidades que hagan crecer mis
-                        habilidades.
+                        Me considero una persona adaptable y capaz de trabajar
+                        en diferentes entornos y situaciones, lo que me permite
+                        abordar cualquier desafío que se presente con confianza
+                        y eficacia.
                     </Text>
                     <Text>
-                        Disfruto trabajar en equipo y el aprendizaje autodidacta
-                        acompañado de practica.
+                        Durante mi tiempo como desarrollador, he tenido la
+                        oportunidad de trabajar en una variedad de proyectos en
+                        los que he podido aprender y poner en práctica mis
+                        habilidades técnicas. Soy competente en una variedad de
+                        tecnologías y lenguajes de programación, incluyendo
+                        React, Express, MySQL, MongoDB, PostgreeSQL y muchas
+                        más.
                     </Text>
                 </div>
             </div>
