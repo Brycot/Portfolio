@@ -26,7 +26,7 @@ function Title() {
                 </figure>
                 <div>
                     <h1>Bryan Figueroa</h1>
-                    <h3>Desarrollador Full-Stack</h3>
+                    <h3>Desarrollador Fron-end</h3>
                 </div>
 
                 <SocialLinkContainer>
@@ -54,7 +54,7 @@ function Title() {
                 </SocialLinkContainer>
 
                 <Button
-                    href="https://drive.google.com/file/d/11F3H4LRIJdeEJ_OcYg0W5CaSa36Xibz1/view?usp=share_link"
+                    href="https://drive.google.com/file/d/14VU3uLD-r9lMGijEmaBVnKV3Lbm8FBTx/view?usp=sharing"
                     target="_blank"
                 >
                     DESCARGAR CV

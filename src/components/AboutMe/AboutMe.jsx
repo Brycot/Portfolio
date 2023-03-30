@@ -15,9 +15,9 @@ function AboutMe() {
                 />
                 <div className="AboutMe__paragraph_Container">
                     <Text>
-                        Soy un desarrollador Full-Stack con una actitud
-                        positiva, con habilidades técnicas sólidas y una pasión
-                        por la resolución de conflictos.
+                        Soy un desarrollador Full-Stack enfocado al Front-end
+                        con una actitud positiva, con habilidades técnicas
+                        sólidas y una pasión por la resolución de conflictos.
                     </Text>
                     <Text>
                         Lo que me ha permitido obtener logros en los proyectos
