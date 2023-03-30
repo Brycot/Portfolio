@@ -54,7 +54,7 @@ function Title() {
                 </SocialLinkContainer>
 
                 <Button
-                    href="https://drive.google.com/file/d/1AY2JSSqxTh7xyFv_L-nZwRifjt3Mp-6u/view?usp=sharing"
+                    href="https://drive.google.com/file/d/11F3H4LRIJdeEJ_OcYg0W5CaSa36Xibz1/view?usp=share_link"
                     target="_blank"
                 >
                     DESCARGAR CV

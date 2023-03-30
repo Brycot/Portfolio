@@ -15,24 +15,21 @@ function AboutMe() {
                 />
                 <div className="AboutMe__paragraph_Container">
                     <Text>
-                        Soy un individuo muy motivado y comprometido. Me
-                        esfuerzo por superar continuamente mis límites para
-                        alcanzar resultados sobresalientes en todo lo que hago.
+                        Soy un desarrollador Full-Stack con una actitud
+                        positiva, con habilidades técnicas sólidas y una pasión
+                        por la resolución de conflictos.
                     </Text>
                     <Text>
-                        Me considero una persona adaptable y capaz de trabajar
-                        en diferentes entornos y situaciones, lo que me permite
-                        abordar cualquier desafío que se presente con confianza
-                        y eficacia.
+                        Lo que me ha permitido obtener logros en los proyectos
+                        en los que he sido partícipe, como aumentar la
+                        productividad y las ganancias de los clientes o empresas
+                        en las que trabajado. Obteniendo promociones y roles de
+                        liderazgo en entornos educativos y profesionales.
                     </Text>
                     <Text>
-                        Durante mi tiempo como desarrollador, he tenido la
-                        oportunidad de trabajar en una variedad de proyectos en
-                        los que he podido aprender y poner en práctica mis
-                        habilidades técnicas. Soy competente en una variedad de
-                        tecnologías y lenguajes de programación, incluyendo
-                        React, Express, MySQL, MongoDB, PostgreeSQL y muchas
-                        más.
+                        Siempre dispuesto a seguir aprendiendo, en búsqueda de
+                        la siguiente oportunidad laboral que me permita seguir
+                        creciendo tanto personal como laboralmente
                     </Text>
                 </div>
             </div>
