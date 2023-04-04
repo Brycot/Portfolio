@@ -1,12 +1,19 @@
 const projectsArray = [];
 projectsArray.push({
     name: 'TifySpo',
-    demo: '',
-    git: '',
-    img: 'https://i.imgur.com/X4lCN2d.png',
+    demo: 'https://tifyspo.vercel.app/',
+    git: 'https://github.com/Brycot/tifyspo',
+    img: 'https://i.imgur.com/Ei7eheU.png',
     description:
         'Clon de Spotify que usa la API de spotify para hacer la autenticacioón y asi poder acceder a las playlist/albumes del usuario y reproducir musica',
-    stack: ['HTML5', 'CSS3', 'JavaScript', 'API-Rest'],
+    stack: [
+        'HTML5',
+        'Styled Components',
+        'JavaScript',
+        'React',
+        'API-Rest',
+        'OAuth 2.0',
+    ],
 });
 projectsArray.push({
     name: 'YumYum',
@@ -100,12 +107,12 @@ projectsArray.push({
         'Maqueta de un dashboard de una aplicación fintech con diseño responsivo.',
     stack: ['HTML5', 'CSS3'],
 });
-projectsArray.push({
-    name: 'Netflix Clone HMTL',
-    demo: 'https://netflix-brycot.netlify.app/',
-    git: 'https://github.com/Brycot/netflix-clone-html',
-    img: 'https://i.imgur.com/euC4HXV.png',
-    description: 'Maqueta del formulario de inicio de sesión de netflix.',
-    stack: ['HTML5', 'CSS3'],
-});
+// projectsArray.push({
+//     name: 'Netflix Clone HMTL',
+//     demo: 'https://netflix-brycot.netlify.app/',
+//     git: 'https://github.com/Brycot/netflix-clone-html',
+//     img: 'https://i.imgur.com/euC4HXV.png',
+//     description: 'Maqueta del formulario de inicio de sesión de netflix.',
+//     stack: ['HTML5', 'CSS3'],
+// });
 export default projectsArray;
