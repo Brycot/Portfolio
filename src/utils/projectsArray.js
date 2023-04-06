@@ -1,7 +1,7 @@
 const projectsArray = [];
 projectsArray.push({
     name: 'TifySpo',
-    demo: 'https://tifyspo.vercel.app/',
+    demo: '',
     git: 'https://github.com/Brycot/tifyspo',
     img: 'https://i.imgur.com/Ei7eheU.png',
     description:

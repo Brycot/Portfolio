@@ -29,6 +29,28 @@ export const Section = styled.section`
         justify-items: center;
         align-items: center;
     }
+    // Proyecto spotify
+    & .Projects__Container div:first-child .Project__Image::after {
+        width: 100%;
+        height: 100%;
+        content: 'En desarrollo';
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.608);
+        backdrop-filter: blur(4px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+    & .Projects__Container div:first-child .Project__Links a:first-child {
+        cursor: not-allowed;
+        user-select: none;
+        background-color: #3c3c3c;
+        border-color: #3c3c3c;
+        pointer-events: none;
+    }
 `;
 
 export const Title = styled.h2`
